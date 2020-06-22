@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644D14499A06290F1C3738AE /* Pods_PineTech_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A99C1388D0299B33BA3CB /* Pods_PineTech_Test.framework */; };
+		710D5E0A24913E3D00129071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710D5E0924913E3D00129071 /* AppDelegate.swift */; };
+		710D5E1124913E3D00129071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710D5E0F24913E3D00129071 /* Main.storyboard */; };
+		710D5E1324913E3F00129071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710D5E1224913E3F00129071 /* Assets.xcassets */; };
+		710D5E1624913E3F00129071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710D5E1424913E3F00129071 /* LaunchScreen.storyboard */; };
+		710D5E2124913E3F00129071 /* PineTech_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710D5E2024913E3F00129071 /* PineTech_TestTests.swift */; };
+		710D5E2C249144C100129071 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710D5E2B249144C100129071 /* NewsListTableViewController.swift */; };
+		71554D2A2491FDCF00487875 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D292491FDCF00487875 /* CategoryTableViewCell.swift */; };
+		71554D2C2491FF0100487875 /* IntrinsicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D2B2491FF0100487875 /* IntrinsicCollectionView.swift */; };
+		71554D2E249217E100487875 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D2D249217E100487875 /* CategoryCollectionViewCell.swift */; };
+		71554D3024921EEC00487875 /* ImageSlideshowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D2F24921EEC00487875 /* ImageSlideshowTableViewCell.swift */; };
+		71554D332492350B00487875 /* Datagenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D322492350B00487875 /* Datagenerator.swift */; };
+		71554D362492352F00487875 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D352492352F00487875 /* APIManager.swift */; };
+		71554D392492355900487875 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D382492355900487875 /* Constants.swift */; };
+		71554D3E24923B7400487875 /* News Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D3D24923B7400487875 /* News Model.swift */; };
+		71554D422492570C00487875 /* NewsListTableViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71554D412492570C00487875 /* NewsListTableViewControllerViewModel.swift */; };
+		715C9E2524928FF500E048D1 /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715C9E2424928FF500E048D1 /* NewsListTableViewCell.swift */; };
+		715C9E2924929F2F00E048D1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715C9E2824929F2F00E048D1 /* DetailsViewController.swift */; };
+		9F71AB4E39630C0645FB659B /* Pods_PineTech_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62FBF5D472982A4528C2100 /* Pods_PineTech_TestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		710D5E1D24913E3F00129071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710D5DFE24913E3D00129071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710D5E0524913E3D00129071;
+			remoteInfo = "PineTech Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146E2566D445AE5028E2A872 /* Pods-PineTech Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTech Test.debug.xcconfig"; path = "Target Support Files/Pods-PineTech Test/Pods-PineTech Test.debug.xcconfig"; sourceTree = "<group>"; };
+		1AC38BC562F1C5D5FAB0050E /* Pods-PineTech TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTech TestTests.release.xcconfig"; path = "Target Support Files/Pods-PineTech TestTests/Pods-PineTech TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F3E006795F8155D15C9DEF3 /* Pods-PineTech TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTech TestTests.debug.xcconfig"; path = "Target Support Files/Pods-PineTech TestTests/Pods-PineTech TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3A99C1388D0299B33BA3CB /* Pods_PineTech_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PineTech_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		710D5E0624913E3D00129071 /* PineTech Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PineTech Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710D5E0924913E3D00129071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		710D5E1024913E3D00129071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710D5E1224913E3F00129071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710D5E1524913E3F00129071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710D5E1724913E3F00129071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710D5E1C24913E3F00129071 /* PineTech TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PineTech TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710D5E2024913E3F00129071 /* PineTech_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineTech_TestTests.swift; sourceTree = "<group>"; };
+		710D5E2224913E3F00129071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710D5E2B249144C100129071 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		71554D292491FDCF00487875 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		71554D2B2491FF0100487875 /* IntrinsicCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrinsicCollectionView.swift; sourceTree = "<group>"; };
+		71554D2D249217E100487875 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		71554D2F24921EEC00487875 /* ImageSlideshowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlideshowTableViewCell.swift; sourceTree = "<group>"; };
+		71554D322492350B00487875 /* Datagenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datagenerator.swift; sourceTree = "<group>"; };
+		71554D352492352F00487875 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		71554D382492355900487875 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		71554D3D24923B7400487875 /* News Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "News Model.swift"; sourceTree = "<group>"; };
+		71554D412492570C00487875 /* NewsListTableViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewControllerViewModel.swift; sourceTree = "<group>"; };
+		715C9E2424928FF500E048D1 /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
+		715C9E2824929F2F00E048D1 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		8C93CF23DE8C95868E128B67 /* Pods-PineTech Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTech Test.release.xcconfig"; path = "Target Support Files/Pods-PineTech Test/Pods-PineTech Test.release.xcconfig"; sourceTree = "<group>"; };
+		B62FBF5D472982A4528C2100 /* Pods_PineTech_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PineTech_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710D5E0324913E3D00129071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644D14499A06290F1C3738AE /* Pods_PineTech_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710D5E1924913E3F00129071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F71AB4E39630C0645FB659B /* Pods_PineTech_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710D5DFD24913E3D00129071 = {
+			isa = PBXGroup;
+			children = (
+				710D5E0824913E3D00129071 /* PineTech Test */,
+				710D5E1F24913E3F00129071 /* PineTech TestTests */,
+				710D5E0724913E3D00129071 /* Products */,
+				DBD2DA577D7ECDF7889959C4 /* Pods */,
+				F447C511E650CE79F7D952CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		710D5E0724913E3D00129071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710D5E0624913E3D00129071 /* PineTech Test.app */,
+				710D5E1C24913E3F00129071 /* PineTech TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710D5E0824913E3D00129071 /* PineTech Test */ = {
+			isa = PBXGroup;
+			children = (
+				710D5E0924913E3D00129071 /* AppDelegate.swift */,
+				71554D31249234D100487875 /* DataGenerator */,
+				71554D342492352F00487875 /* Services */,
+				71554D372492355900487875 /* Utilities */,
+				71554D3A2492357500487875 /* Model */,
+				71554D3B2492379700487875 /* View */,
+				71554D3C249237F500487875 /* ViewModel */,
+				710D5E0F24913E3D00129071 /* Main.storyboard */,
+				710D5E1224913E3F00129071 /* Assets.xcassets */,
+				710D5E1424913E3F00129071 /* LaunchScreen.storyboard */,
+				710D5E1724913E3F00129071 /* Info.plist */,
+			);
+			path = "PineTech Test";
+			sourceTree = "<group>";
+		};
+		710D5E1F24913E3F00129071 /* PineTech TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				710D5E2024913E3F00129071 /* PineTech_TestTests.swift */,
+				710D5E2224913E3F00129071 /* Info.plist */,
+			);
+			path = "PineTech TestTests";
+			sourceTree = "<group>";
+		};
+		71554D31249234D100487875 /* DataGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				71554D322492350B00487875 /* Datagenerator.swift */,
+			);
+			path = DataGenerator;
+			sourceTree = "<group>";
+		};
+		71554D342492352F00487875 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				71554D352492352F00487875 /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		71554D372492355900487875 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				71554D382492355900487875 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		71554D3A2492357500487875 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71554D3D24923B7400487875 /* News Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71554D3B2492379700487875 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				710D5E2B249144C100129071 /* NewsListTableViewController.swift */,
+				71554D292491FDCF00487875 /* CategoryTableViewCell.swift */,
+				71554D2F24921EEC00487875 /* ImageSlideshowTableViewCell.swift */,
+				715C9E2424928FF500E048D1 /* NewsListTableViewCell.swift */,
+				71554D2D249217E100487875 /* CategoryCollectionViewCell.swift */,
+				71554D2B2491FF0100487875 /* IntrinsicCollectionView.swift */,
+				715C9E2824929F2F00E048D1 /* DetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71554D3C249237F500487875 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				71554D412492570C00487875 /* NewsListTableViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DBD2DA577D7ECDF7889959C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				146E2566D445AE5028E2A872 /* Pods-PineTech Test.debug.xcconfig */,
+				8C93CF23DE8C95868E128B67 /* Pods-PineTech Test.release.xcconfig */,
+				1F3E006795F8155D15C9DEF3 /* Pods-PineTech TestTests.debug.xcconfig */,
+				1AC38BC562F1C5D5FAB0050E /* Pods-PineTech TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F447C511E650CE79F7D952CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A99C1388D0299B33BA3CB /* Pods_PineTech_Test.framework */,
+				B62FBF5D472982A4528C2100 /* Pods_PineTech_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710D5E0524913E3D00129071 /* PineTech Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710D5E2524913E3F00129071 /* Build configuration list for PBXNativeTarget "PineTech Test" */;
+			buildPhases = (
+				E5D845A2E96399055E3C2221 /* [CP] Check Pods Manifest.lock */,
+				710D5E0224913E3D00129071 /* Sources */,
+				710D5E0324913E3D00129071 /* Frameworks */,
+				710D5E0424913E3D00129071 /* Resources */,
+				F56A70AA17B965FD6C5931E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PineTech Test";
+			productName = "PineTech Test";
+			productReference = 710D5E0624913E3D00129071 /* PineTech Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		710D5E1B24913E3F00129071 /* PineTech TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710D5E2824913E3F00129071 /* Build configuration list for PBXNativeTarget "PineTech TestTests" */;
+			buildPhases = (
+				D97199BDE7A16904E2DBD62B /* [CP] Check Pods Manifest.lock */,
+				710D5E1824913E3F00129071 /* Sources */,
+				710D5E1924913E3F00129071 /* Frameworks */,
+				710D5E1A24913E3F00129071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710D5E1E24913E3F00129071 /* PBXTargetDependency */,
+			);
+			name = "PineTech TestTests";
+			productName = "PineTech TestTests";
+			productReference = 710D5E1C24913E3F00129071 /* PineTech TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710D5DFE24913E3D00129071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = FairCode;
+				TargetAttributes = {
+					710D5E0524913E3D00129071 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					710D5E1B24913E3F00129071 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 710D5E0524913E3D00129071;
+					};
+				};
+			};
+			buildConfigurationList = 710D5E0124913E3D00129071 /* Build configuration list for PBXProject "PineTech Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 710D5DFD24913E3D00129071;
+			productRefGroup = 710D5E0724913E3D00129071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710D5E0524913E3D00129071 /* PineTech Test */,
+				710D5E1B24913E3F00129071 /* PineTech TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710D5E0424913E3D00129071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710D5E1624913E3F00129071 /* LaunchScreen.storyboard in Resources */,
+				710D5E1324913E3F00129071 /* Assets.xcassets in Resources */,
+				710D5E1124913E3D00129071 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710D5E1A24913E3F00129071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D97199BDE7A16904E2DBD62B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PineTech TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D845A2E96399055E3C2221 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PineTech Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56A70AA17B965FD6C5931E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PineTech Test/Pods-PineTech Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PineTech Test/Pods-PineTech Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PineTech Test/Pods-PineTech Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710D5E0224913E3D00129071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71554D362492352F00487875 /* APIManager.swift in Sources */,
+				710D5E2C249144C100129071 /* NewsListTableViewController.swift in Sources */,
+				71554D2E249217E100487875 /* CategoryCollectionViewCell.swift in Sources */,
+				71554D3024921EEC00487875 /* ImageSlideshowTableViewCell.swift in Sources */,
+				710D5E0A24913E3D00129071 /* AppDelegate.swift in Sources */,
+				71554D3E24923B7400487875 /* News Model.swift in Sources */,
+				71554D2C2491FF0100487875 /* IntrinsicCollectionView.swift in Sources */,
+				71554D332492350B00487875 /* Datagenerator.swift in Sources */,
+				71554D422492570C00487875 /* NewsListTableViewControllerViewModel.swift in Sources */,
+				71554D2A2491FDCF00487875 /* CategoryTableViewCell.swift in Sources */,
+				715C9E2524928FF500E048D1 /* NewsListTableViewCell.swift in Sources */,
+				715C9E2924929F2F00E048D1 /* DetailsViewController.swift in Sources */,
+				71554D392492355900487875 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710D5E1824913E3F00129071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710D5E2124913E3F00129071 /* PineTech_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		710D5E1E24913E3F00129071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710D5E0524913E3D00129071 /* PineTech Test */;
+			targetProxy = 710D5E1D24913E3F00129071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		710D5E0F24913E3D00129071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710D5E1024913E3D00129071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710D5E1424913E3F00129071 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710D5E1524913E3F00129071 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710D5E2324913E3F00129071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		710D5E2424913E3F00129071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710D5E2624913E3F00129071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146E2566D445AE5028E2A872 /* Pods-PineTech Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PineTech Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faircode.PineTech-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		710D5E2724913E3F00129071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C93CF23DE8C95868E128B67 /* Pods-PineTech Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PineTech Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faircode.PineTech-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		710D5E2924913E3F00129071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3E006795F8155D15C9DEF3 /* Pods-PineTech TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PineTech TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faircode.PineTech-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PineTech Test.app/PineTech Test";
+			};
+			name = Debug;
+		};
+		710D5E2A24913E3F00129071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC38BC562F1C5D5FAB0050E /* Pods-PineTech TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PineTech TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faircode.PineTech-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PineTech Test.app/PineTech Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710D5E0124913E3D00129071 /* Build configuration list for PBXProject "PineTech Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710D5E2324913E3F00129071 /* Debug */,
+				710D5E2424913E3F00129071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710D5E2524913E3F00129071 /* Build configuration list for PBXNativeTarget "PineTech Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710D5E2624913E3F00129071 /* Debug */,
+				710D5E2724913E3F00129071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710D5E2824913E3F00129071 /* Build configuration list for PBXNativeTarget "PineTech TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710D5E2924913E3F00129071 /* Debug */,
+				710D5E2A24913E3F00129071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710D5DFE24913E3D00129071 /* Project object */;
+}

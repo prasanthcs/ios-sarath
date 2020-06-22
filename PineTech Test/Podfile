@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PineTech Test' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PineTech Test
+  
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'ImageSlideshow'
+  pod 'ImageSlideshow/Alamofire'
+  pod 'ImageSlideshow/Kingfisher'
+
+  target 'PineTech TestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
